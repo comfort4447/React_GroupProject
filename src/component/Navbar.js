@@ -1,14 +1,18 @@
-import React from "react"
+ import React from "react"
 
 export default function Navbar() {
     return(
             <nav>
-                <img src="../images/interjet.png" alt="" className="img-nav" />
+                <div className="nav-logo">
+                    <img src="../images/interjet.png" alt="" className="nav-img" />
+                </div>
                 <div className="nav-details">
-                    <a href="/#">Home</a>
-                    <a href="/#">Services</a>
-                    <a href="/#">About</a>
-                    <button className="get-started">Get Started</button>
+                    <ul>
+                        <li><a href="/#">Home</a></li>
+                        <li><a href="/#">Services</a></li>
+                        <li><a href="/#">About</a></li>
+                        <button className="get-started">Get Started</button>
+                    </ul>
                 </div>
             </nav>
     )
