@@ -1,17 +1,17 @@
 import React from "react"
-import Service from "./Service"
-import Footer from "./Footer"
 import Navbar from "./Navbar";
+import Home from "./Home"
 
 function App() {
   return (
     <div>
-
-      <Service />
+      <Navbar />
+      <Home />
+      {/* <Service />
 
       <Footer />
-
-      <Navbar />
+ */}
+      
       
     </div>
   )
