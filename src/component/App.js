@@ -1,17 +1,19 @@
 import React from "react"
-import Navbar from "./Navbar";
+import Service from "./Service"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
 import Home from "./Home"
 
 function App() {
   return (
-    <div>
+    <div className="app--class">
       <Navbar />
+
       <Home />
-      {/* <Service />
+
+      <Service />
 
       <Footer />
- */}
-      
       
     </div>
   )
