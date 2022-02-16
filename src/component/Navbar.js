@@ -3,9 +3,12 @@
 export default function Navbar() {
     return(
             <nav>
-                <div className="nav-logo">
                     <img src="../images/interjet.png" alt="" className="nav-img" />
-                </div>
+                    <a href="/#" className="toggle-button">
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                    </a>
                 <div className="nav-details">
                     <ul>
                         <li><a href="/#">Home</a></li>
