@@ -5,7 +5,7 @@ export default function Home(){
         <div className="grp-logo">
         <div className="home">
             <div className="home-text" >
-                <h2>We grow e-commerce <br></br>On average increase <br></br>revenue by 90%</h2>
+                <h2><span>We grow e-commerce</span> <br></br>On average increase <br></br>revenue by 90%</h2>
                 <p>On average we’ve helped businesses increase revenue by <br></br>80%. 
                 See what we can do for you.</p>
                 <div className="btn-start">

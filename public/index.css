@@ -19,6 +19,13 @@ nav{
     display: flex;
 }
 
+.nav-details li:hover{
+    background: #F7EBED;
+    color: #fff;
+}
+.nav-details li a:hover{
+    color: #fff;
+}
 .nav-details li{
     list-style: none;
 }
@@ -40,6 +47,9 @@ nav{
     color: #fff;
     margin: .5rem;
 }
+.nav-start:hover{
+    cursor: pointer;
+}
 .home{
     display: flex;
     align-items: center;
@@ -49,6 +59,10 @@ nav{
 }
 .home-text h2{
     font-size: 48px;
+    color: #21254B;
+}
+.home-text span{
+    color: #44C3AB;
 }
 .home-text p{
     margin-top: 10px;
@@ -57,7 +71,7 @@ nav{
 
 .home-logo{
     margin-top: 50px;
-    width: 40%;
+    width: 45%;
     margin: 3rem;
 }
 .home-img{
@@ -69,6 +83,9 @@ nav{
     border-radius: 0;
     width: 100%;
     margin-top: 10px;
+}
+.home-start:hover{
+    cursor: pointer;
 }
 .home-start{
     border-radius: 10px;
