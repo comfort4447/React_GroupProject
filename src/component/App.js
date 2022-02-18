@@ -1,17 +1,17 @@
 import React from "react"
-import Service from "./Service"
-import Footer from "./Footer"
+import AboutUs from "./AboutUs"
+import data from "../data"
 
-function App() {
-  return (
+
+export default function App() {
+  return(
     <div>
+    <AboutUs
+    
 
-      <Service />
+    />
 
-      <Footer />
-      
+
     </div>
   )
 }
-
-export default App;
