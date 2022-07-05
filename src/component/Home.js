@@ -13,8 +13,23 @@ export default function Home(){
                 </div>
             </div>
             <img src="../images/home-image.png" alt="" className="home-img" />
+            
         </div>
         <img src="../images/group_logo.png" alt="" className="home-logo"/>
+        <div className="bubble">
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        <img src="../images/bubble.png" alt="" className="bub-img"/>
+        </div>
+        
         </div>
     )
 }
